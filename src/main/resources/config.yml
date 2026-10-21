@@ -1,0 +1,26 @@
+# Minimum fall distance required to trigger the effect.
+minimum-fall-distance: 50.0
+
+# Fall distance at which the effect reaches its maximum size.
+# Values stay capped for falls higher than this.
+scale-max-fall-distance: 200.0
+
+# Effect size at the minimum fall distance (50 blocks).
+base-blocks-count: 10
+base-launch-height: 2.0
+base-search-radius: 4
+
+# Effect size at scale-max-fall-distance (200 blocks).
+# The defaults scale linearly: 10 -> 30 blocks, 2 -> 6 blocks high, radius 4 -> 15.
+max-blocks-count: 30
+max-launch-height: 6.0
+max-search-radius: 15
+
+# Total animation duration in ticks (20 ticks = 1 second).
+animation-duration: 30
+
+# Minimum delay between effects for the same player, in seconds.
+cooldown-seconds: 2
+
+# Play a sound when the effect starts.
+sound-enabled: true

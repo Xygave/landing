@@ -1,0 +1,16 @@
+name: JumpEffect
+version: 1.0.0
+main: me.jumpeffect.JumpEffectPlugin
+description: Persistent visual block-burst effect on hard landings.
+api-version: '1.21.11'
+author: Server Admin
+commands:
+  je:
+    description: Manage JumpEffect cosmetics.
+    usage: /je help
+    aliases: [jumpeffect]
+    permission: jumpeffect.admin
+permissions:
+  jumpeffect.admin:
+    description: Allows managing JumpEffect for any player.
+    default: op
